@@ -33,10 +33,17 @@ main .container{
 }
 
 .main_photo{
-    width: 500px;
+    width: 300px;
     margin: 20px;
     margin-left: 100px;
 }
+
+.main_text{
+    text-align: center;
+    width: 400px;
+}
+
+
 
 @media (max-width: 1160px){
     .container{
@@ -45,7 +52,7 @@ main .container{
     }
 
     .main_photo{
-        width: 400px;
+        width: 300px;
         margin: 20px;
         margin-left: 100px;
     }
@@ -56,6 +63,11 @@ main .container{
         width: 900px;
         margin: 0 auto;
         flex-direction:column-reverse 
+    }
+    .main_photo{
+        width: 300px;
+        margin: 20px;
+        margin-left: 100px;
     }
 }
 
@@ -76,10 +88,11 @@ main .container{
     .container{
         width: 700px;
         margin: 0 auto;
-        flex-direction:column-reverse 
+        flex-direction:column-reverse ;
+        
     }
     .main_photo{
-        width: 300px;
+        width: 250px;
         margin: 20px;
         margin-left: 100px;
     }
@@ -89,10 +102,11 @@ main .container{
     .container{
         width: 600px;
         margin: 0 auto;
-        flex-direction:column-reverse 
+        flex-direction:column-reverse ;
+        
     }
     .main_photo{
-        width: 300px;
+        width: 200px;
         margin: 20px;
         margin-left: 100px;
     }
